@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+
+    <GridLayout
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <ImageView
+            android:src="@drawable/game_achievement1"
+            android:id="@+id/achievement1"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/game_achievement2"
+            android:id="@+id/achievement2"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+
+        <ImageView
+            android:src="@drawable/game_achievement3"
+            android:id="@+id/achievement3"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/game_achievement4"
+            android:id="@+id/achievement4"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            >
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/game_achievement5"
+            android:id="@+id/achievement5"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/game_achievement6"
+            android:id="@+id/achievement6"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/game_achievement7"
+            android:id="@+id/achievement7"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/game_achievement8"
+            android:id="@+id/achievement8"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/game_achievement9"
+            android:id="@+id/achievement9"
+            android:scaleType = "fitXY"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+        </ImageView>
+
+    </GridLayout>
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

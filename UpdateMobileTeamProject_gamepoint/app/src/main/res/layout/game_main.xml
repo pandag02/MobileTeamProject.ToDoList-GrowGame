@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/game_forest"
+            android:scaleType = "fitXY"></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Point: "
+                android:textSize="30sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"></TextView>
+
+            <TextView
+                android:id="@+id/inGamePoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="30sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/inGamePandaVersion"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/game_panda1"></ImageButton>
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:columnCount="4"
+            android:rowCount="2"
+            android:background="@drawable/game_wood">
+
+            <ImageView
+                android:src="@drawable/game_gride_1bamboo"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/game_gride_2apple"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+
+            <ImageView
+                android:src="@drawable/game_gride_3mango"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/game_gride_4blueberry"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/game_gride_5banana"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/game_gride_6grape"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/game_gride_7pear"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/game_gride_8cherries"
+                android:scaleType = "fitXY"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+            </ImageView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:columnCount="4"
+            android:rowCount="2">
+
+            <Button
+                android:id="@+id/inGameItem1"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+
+            <Button
+                android:id="@+id/inGameItem2"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+
+            <Button
+                android:id="@+id/inGameItem3"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+
+            <Button
+                android:id="@+id/inGameItem4"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+
+            <Button
+                android:id="@+id/inGameItem5"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+
+            <Button
+                android:id="@+id/inGameItem6"
+                android:text="10"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+
+            <Button
+                android:id="@+id/inGameItem7"
+                android:text="15"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+
+            <Button
+                android:id="@+id/inGameItem8"
+                android:text="20"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp">
+            </Button>
+        </GridLayout>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
